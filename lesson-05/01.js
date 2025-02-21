@@ -24,8 +24,8 @@ const game = {
   }
 };
 
-// Примеры использования
-game.addResource("gold", 50);  // Добавит 50 золота
-console.log(game.resources.gold); // Выведет 300
+game.addResource("gold", 50);
+console.log(game.resources.gold);
 
-game.addResource("stone", 30); // Выведет "Invalid resource"
+game.addResource("stone", 30);
+
